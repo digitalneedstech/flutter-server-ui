@@ -34,6 +34,12 @@ class Constants {
           "typeOfWidgetsInside":["text","row"], // Optional
           "position":"left",// Mandatory and It can be left, center, bottom, top, bottom-center, top-center,random
           "numberOfWidgetsInside":1, //Optional
+          "properties":[ // Optional- It defines different key value pair based props of widget which states it can contain decoration properties for container and style properties for text and so on that kind of relevant content
+            {
+              "key":"textColor",
+              "value":"30"
+            }
+          ],
           "data": { //Optional If type is form
             "fields": [
               {
@@ -80,6 +86,12 @@ class Constants {
                     "top": 50,
                     "right": 10
                   },
+                  "properties":[
+                    {
+                      "key":"color",
+                      "value":"30"
+                    }
+                  ],
                   "alignUnit":"px", //or em
                   "label":"text"
                 },
