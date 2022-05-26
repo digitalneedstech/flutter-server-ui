@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_server_driven_ui/src/modules/home/models/fieldsModel.dart';
 import 'package:flutter_server_driven_ui/src/modules/home/models/formModel.dart';
+import 'package:flutter_server_driven_ui/src/shared/assets/constants.dart';
 import 'package:flutter_server_driven_ui/src/shared/widgets/server_driven_text_field/index.dart';
 import 'package:flutter_server_driven_ui/src/shared/widgets/server_driven_text_widget/index.dart';
 
@@ -23,7 +24,7 @@ class FormWidgetState extends State<FormWidget> {
     TODO- Call and api and get response
     Dummy response is added in constants file
      */
-    List<FieldModel> fieldsModel = [FieldModel("name", "input")];
+    List<FieldModel> fieldsModel = FormModel.fromJson(jsonFormResponse).fields;
     FormModel formModel = FormModel(fieldsModel);
     setState(() {
       form = formModel;

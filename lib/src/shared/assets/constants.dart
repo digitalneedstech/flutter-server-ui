@@ -1,5 +1,6 @@
-class Constants {
-  static const JSON_FORM_RESPONSE = {
+
+  const String appName="Server UI";
+  const Map<String,dynamic> jsonFormResponse = {
     "data": {
       "fields": [
         {
@@ -25,7 +26,7 @@ class Constants {
     }
   };
 
-  static const JSON_SCOND_PAGE_RESPONSE = {
+  const jsonSecondPageResponse = {
     "data": {
       "fields": [
         {
@@ -102,4 +103,4 @@ class Constants {
       ]
     }
   };
-}
+
