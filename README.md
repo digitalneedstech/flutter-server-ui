@@ -1,16 +1,22 @@
-# flutter_server_driven_ui
 
-A new Flutter application.
+# Flutter Server Driven UI
 
-## Getting Started
+This project contains code to render UI in Flutter by getting the response from server in JSON format.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Documentation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+There are two pages in this project.
+1. Home page - which renders form content from JSON format.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Second page- renders ui with support to render different kinds of widgets like container, row, text etc.
+
+
+I have kept two dummy jsons in
+src/shared/assets/constants.dart.
+Which can be considered as a response from any api.
+
+
+## Acknowledgements
+
+ -
